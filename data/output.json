@@ -1,0 +1,797 @@
+{
+  "results" : [ {
+    "file" : "large1.json",
+    "vertices" : 25,
+    "edges" : 25,
+    "weight_model" : "edge",
+    "scc" : [ {
+      "id" : 0,
+      "size" : 1,
+      "vertices" : [ 24 ]
+    }, {
+      "id" : 1,
+      "size" : 1,
+      "vertices" : [ 23 ]
+    }, {
+      "id" : 2,
+      "size" : 1,
+      "vertices" : [ 22 ]
+    }, {
+      "id" : 3,
+      "size" : 1,
+      "vertices" : [ 21 ]
+    }, {
+      "id" : 4,
+      "size" : 1,
+      "vertices" : [ 20 ]
+    }, {
+      "id" : 5,
+      "size" : 1,
+      "vertices" : [ 19 ]
+    }, {
+      "id" : 6,
+      "size" : 1,
+      "vertices" : [ 18 ]
+    }, {
+      "id" : 7,
+      "size" : 1,
+      "vertices" : [ 17 ]
+    }, {
+      "id" : 8,
+      "size" : 1,
+      "vertices" : [ 16 ]
+    }, {
+      "id" : 9,
+      "size" : 1,
+      "vertices" : [ 15 ]
+    }, {
+      "id" : 10,
+      "size" : 1,
+      "vertices" : [ 14 ]
+    }, {
+      "id" : 11,
+      "size" : 1,
+      "vertices" : [ 13 ]
+    }, {
+      "id" : 12,
+      "size" : 1,
+      "vertices" : [ 12 ]
+    }, {
+      "id" : 13,
+      "size" : 1,
+      "vertices" : [ 11 ]
+    }, {
+      "id" : 14,
+      "size" : 1,
+      "vertices" : [ 10 ]
+    }, {
+      "id" : 15,
+      "size" : 1,
+      "vertices" : [ 9 ]
+    }, {
+      "id" : 16,
+      "size" : 1,
+      "vertices" : [ 8 ]
+    }, {
+      "id" : 17,
+      "size" : 1,
+      "vertices" : [ 7 ]
+    }, {
+      "id" : 18,
+      "size" : 1,
+      "vertices" : [ 6 ]
+    }, {
+      "id" : 19,
+      "size" : 1,
+      "vertices" : [ 5 ]
+    }, {
+      "id" : 20,
+      "size" : 1,
+      "vertices" : [ 3 ]
+    }, {
+      "id" : 21,
+      "size" : 1,
+      "vertices" : [ 1 ]
+    }, {
+      "id" : 22,
+      "size" : 1,
+      "vertices" : [ 4 ]
+    }, {
+      "id" : 23,
+      "size" : 1,
+      "vertices" : [ 2 ]
+    }, {
+      "id" : 24,
+      "size" : 1,
+      "vertices" : [ 0 ]
+    } ],
+    "componentTopo" : [ 24, 21, 23, 20, 22, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 ],
+    "shortest" : {
+      "sourceComp" : 0,
+      "dist" : [ 0.0, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300 ]
+    },
+    "criticalPath" : {
+      "length" : 1.0E300,
+      "path" : [ 1 ]
+    },
+    "Tarjan_SCC_count" : 25,
+    "Tarjan_time_ns" : 879250,
+    "Kahn_time_ns" : 211833,
+    "DAGSP_short_time_ns" : 988208,
+    "DAGSP_long_time_ns" : 81625,
+    "DAGSP_short_relax_ops" : 0,
+    "DAGSP_long_relax_ops" : 0
+  }, {
+    "file" : "large2.json",
+    "vertices" : 30,
+    "edges" : 30,
+    "weight_model" : "edge",
+    "scc" : [ {
+      "id" : 0,
+      "size" : 1,
+      "vertices" : [ 29 ]
+    }, {
+      "id" : 1,
+      "size" : 1,
+      "vertices" : [ 28 ]
+    }, {
+      "id" : 2,
+      "size" : 1,
+      "vertices" : [ 27 ]
+    }, {
+      "id" : 3,
+      "size" : 1,
+      "vertices" : [ 26 ]
+    }, {
+      "id" : 4,
+      "size" : 1,
+      "vertices" : [ 25 ]
+    }, {
+      "id" : 5,
+      "size" : 1,
+      "vertices" : [ 24 ]
+    }, {
+      "id" : 6,
+      "size" : 1,
+      "vertices" : [ 23 ]
+    }, {
+      "id" : 7,
+      "size" : 1,
+      "vertices" : [ 22 ]
+    }, {
+      "id" : 8,
+      "size" : 1,
+      "vertices" : [ 21 ]
+    }, {
+      "id" : 9,
+      "size" : 1,
+      "vertices" : [ 20 ]
+    }, {
+      "id" : 10,
+      "size" : 1,
+      "vertices" : [ 19 ]
+    }, {
+      "id" : 11,
+      "size" : 1,
+      "vertices" : [ 18 ]
+    }, {
+      "id" : 12,
+      "size" : 1,
+      "vertices" : [ 17 ]
+    }, {
+      "id" : 13,
+      "size" : 1,
+      "vertices" : [ 16 ]
+    }, {
+      "id" : 14,
+      "size" : 1,
+      "vertices" : [ 15 ]
+    }, {
+      "id" : 15,
+      "size" : 1,
+      "vertices" : [ 14 ]
+    }, {
+      "id" : 16,
+      "size" : 1,
+      "vertices" : [ 13 ]
+    }, {
+      "id" : 17,
+      "size" : 1,
+      "vertices" : [ 12 ]
+    }, {
+      "id" : 18,
+      "size" : 1,
+      "vertices" : [ 11 ]
+    }, {
+      "id" : 19,
+      "size" : 1,
+      "vertices" : [ 10 ]
+    }, {
+      "id" : 20,
+      "size" : 1,
+      "vertices" : [ 9 ]
+    }, {
+      "id" : 21,
+      "size" : 1,
+      "vertices" : [ 8 ]
+    }, {
+      "id" : 22,
+      "size" : 1,
+      "vertices" : [ 7 ]
+    }, {
+      "id" : 23,
+      "size" : 1,
+      "vertices" : [ 6 ]
+    }, {
+      "id" : 24,
+      "size" : 1,
+      "vertices" : [ 5 ]
+    }, {
+      "id" : 25,
+      "size" : 1,
+      "vertices" : [ 4 ]
+    }, {
+      "id" : 26,
+      "size" : 1,
+      "vertices" : [ 3 ]
+    }, {
+      "id" : 27,
+      "size" : 3,
+      "vertices" : [ 0, 1, 2 ]
+    } ],
+    "componentTopo" : [ 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 ],
+    "shortest" : {
+      "sourceComp" : 0,
+      "dist" : [ 0.0, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300 ]
+    },
+    "criticalPath" : {
+      "length" : 1.0E300,
+      "path" : [ 1 ]
+    },
+    "Tarjan_SCC_count" : 28,
+    "Tarjan_time_ns" : 58875,
+    "Kahn_time_ns" : 66583,
+    "DAGSP_short_time_ns" : 63250,
+    "DAGSP_long_time_ns" : 81208,
+    "DAGSP_short_relax_ops" : 0,
+    "DAGSP_long_relax_ops" : 0
+  }, {
+    "file" : "large3.json",
+    "vertices" : 40,
+    "edges" : 39,
+    "weight_model" : "edge",
+    "scc" : [ {
+      "id" : 0,
+      "size" : 1,
+      "vertices" : [ 39 ]
+    }, {
+      "id" : 1,
+      "size" : 1,
+      "vertices" : [ 38 ]
+    }, {
+      "id" : 2,
+      "size" : 1,
+      "vertices" : [ 37 ]
+    }, {
+      "id" : 3,
+      "size" : 1,
+      "vertices" : [ 36 ]
+    }, {
+      "id" : 4,
+      "size" : 1,
+      "vertices" : [ 35 ]
+    }, {
+      "id" : 5,
+      "size" : 1,
+      "vertices" : [ 34 ]
+    }, {
+      "id" : 6,
+      "size" : 1,
+      "vertices" : [ 33 ]
+    }, {
+      "id" : 7,
+      "size" : 1,
+      "vertices" : [ 32 ]
+    }, {
+      "id" : 8,
+      "size" : 1,
+      "vertices" : [ 31 ]
+    }, {
+      "id" : 9,
+      "size" : 1,
+      "vertices" : [ 30 ]
+    }, {
+      "id" : 10,
+      "size" : 1,
+      "vertices" : [ 29 ]
+    }, {
+      "id" : 11,
+      "size" : 1,
+      "vertices" : [ 28 ]
+    }, {
+      "id" : 12,
+      "size" : 1,
+      "vertices" : [ 27 ]
+    }, {
+      "id" : 13,
+      "size" : 1,
+      "vertices" : [ 26 ]
+    }, {
+      "id" : 14,
+      "size" : 1,
+      "vertices" : [ 25 ]
+    }, {
+      "id" : 15,
+      "size" : 1,
+      "vertices" : [ 24 ]
+    }, {
+      "id" : 16,
+      "size" : 1,
+      "vertices" : [ 23 ]
+    }, {
+      "id" : 17,
+      "size" : 1,
+      "vertices" : [ 22 ]
+    }, {
+      "id" : 18,
+      "size" : 1,
+      "vertices" : [ 21 ]
+    }, {
+      "id" : 19,
+      "size" : 1,
+      "vertices" : [ 20 ]
+    }, {
+      "id" : 20,
+      "size" : 1,
+      "vertices" : [ 19 ]
+    }, {
+      "id" : 21,
+      "size" : 1,
+      "vertices" : [ 18 ]
+    }, {
+      "id" : 22,
+      "size" : 1,
+      "vertices" : [ 17 ]
+    }, {
+      "id" : 23,
+      "size" : 1,
+      "vertices" : [ 16 ]
+    }, {
+      "id" : 24,
+      "size" : 1,
+      "vertices" : [ 15 ]
+    }, {
+      "id" : 25,
+      "size" : 1,
+      "vertices" : [ 14 ]
+    }, {
+      "id" : 26,
+      "size" : 1,
+      "vertices" : [ 13 ]
+    }, {
+      "id" : 27,
+      "size" : 1,
+      "vertices" : [ 12 ]
+    }, {
+      "id" : 28,
+      "size" : 1,
+      "vertices" : [ 11 ]
+    }, {
+      "id" : 29,
+      "size" : 1,
+      "vertices" : [ 10 ]
+    }, {
+      "id" : 30,
+      "size" : 1,
+      "vertices" : [ 9 ]
+    }, {
+      "id" : 31,
+      "size" : 1,
+      "vertices" : [ 8 ]
+    }, {
+      "id" : 32,
+      "size" : 1,
+      "vertices" : [ 7 ]
+    }, {
+      "id" : 33,
+      "size" : 1,
+      "vertices" : [ 6 ]
+    }, {
+      "id" : 34,
+      "size" : 1,
+      "vertices" : [ 5 ]
+    }, {
+      "id" : 35,
+      "size" : 1,
+      "vertices" : [ 4 ]
+    }, {
+      "id" : 36,
+      "size" : 1,
+      "vertices" : [ 3 ]
+    }, {
+      "id" : 37,
+      "size" : 1,
+      "vertices" : [ 2 ]
+    }, {
+      "id" : 38,
+      "size" : 1,
+      "vertices" : [ 1 ]
+    }, {
+      "id" : 39,
+      "size" : 1,
+      "vertices" : [ 0 ]
+    } ],
+    "componentTopo" : [ 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 ],
+    "shortest" : {
+      "sourceComp" : 0,
+      "dist" : [ 0.0, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300 ]
+    },
+    "criticalPath" : {
+      "length" : 1.0E300,
+      "path" : [ 1 ]
+    },
+    "Tarjan_SCC_count" : 40,
+    "Tarjan_time_ns" : 65291,
+    "Kahn_time_ns" : 68167,
+    "DAGSP_short_time_ns" : 67541,
+    "DAGSP_long_time_ns" : 65667,
+    "DAGSP_short_relax_ops" : 0,
+    "DAGSP_long_relax_ops" : 0
+  }, {
+    "file" : "medium1.json",
+    "vertices" : 12,
+    "edges" : 12,
+    "weight_model" : "edge",
+    "scc" : [ {
+      "id" : 0,
+      "size" : 1,
+      "vertices" : [ 11 ]
+    }, {
+      "id" : 1,
+      "size" : 1,
+      "vertices" : [ 10 ]
+    }, {
+      "id" : 2,
+      "size" : 1,
+      "vertices" : [ 9 ]
+    }, {
+      "id" : 3,
+      "size" : 1,
+      "vertices" : [ 8 ]
+    }, {
+      "id" : 4,
+      "size" : 1,
+      "vertices" : [ 7 ]
+    }, {
+      "id" : 5,
+      "size" : 1,
+      "vertices" : [ 6 ]
+    }, {
+      "id" : 6,
+      "size" : 1,
+      "vertices" : [ 5 ]
+    }, {
+      "id" : 7,
+      "size" : 1,
+      "vertices" : [ 4 ]
+    }, {
+      "id" : 8,
+      "size" : 1,
+      "vertices" : [ 3 ]
+    }, {
+      "id" : 9,
+      "size" : 3,
+      "vertices" : [ 0, 1, 2 ]
+    } ],
+    "componentTopo" : [ 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 ],
+    "shortest" : {
+      "sourceComp" : 0,
+      "dist" : [ 0.0, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300 ]
+    },
+    "criticalPath" : {
+      "length" : 1.0E300,
+      "path" : [ 1 ]
+    },
+    "Tarjan_SCC_count" : 10,
+    "Tarjan_time_ns" : 34583,
+    "Kahn_time_ns" : 8792,
+    "DAGSP_short_time_ns" : 9042,
+    "DAGSP_long_time_ns" : 8666,
+    "DAGSP_short_relax_ops" : 0,
+    "DAGSP_long_relax_ops" : 0
+  }, {
+    "file" : "medium2.json",
+    "vertices" : 15,
+    "edges" : 15,
+    "weight_model" : "edge",
+    "scc" : [ {
+      "id" : 0,
+      "size" : 1,
+      "vertices" : [ 14 ]
+    }, {
+      "id" : 1,
+      "size" : 1,
+      "vertices" : [ 13 ]
+    }, {
+      "id" : 2,
+      "size" : 1,
+      "vertices" : [ 12 ]
+    }, {
+      "id" : 3,
+      "size" : 1,
+      "vertices" : [ 11 ]
+    }, {
+      "id" : 4,
+      "size" : 1,
+      "vertices" : [ 10 ]
+    }, {
+      "id" : 5,
+      "size" : 1,
+      "vertices" : [ 9 ]
+    }, {
+      "id" : 6,
+      "size" : 1,
+      "vertices" : [ 8 ]
+    }, {
+      "id" : 7,
+      "size" : 1,
+      "vertices" : [ 7 ]
+    }, {
+      "id" : 8,
+      "size" : 1,
+      "vertices" : [ 6 ]
+    }, {
+      "id" : 9,
+      "size" : 1,
+      "vertices" : [ 5 ]
+    }, {
+      "id" : 10,
+      "size" : 1,
+      "vertices" : [ 4 ]
+    }, {
+      "id" : 11,
+      "size" : 1,
+      "vertices" : [ 3 ]
+    }, {
+      "id" : 12,
+      "size" : 3,
+      "vertices" : [ 0, 1, 2 ]
+    } ],
+    "componentTopo" : [ 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 ],
+    "shortest" : {
+      "sourceComp" : 0,
+      "dist" : [ 0.0, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300 ]
+    },
+    "criticalPath" : {
+      "length" : 1.0E300,
+      "path" : [ 1 ]
+    },
+    "Tarjan_SCC_count" : 13,
+    "Tarjan_time_ns" : 18667,
+    "Kahn_time_ns" : 8417,
+    "DAGSP_short_time_ns" : 8875,
+    "DAGSP_long_time_ns" : 8209,
+    "DAGSP_short_relax_ops" : 0,
+    "DAGSP_long_relax_ops" : 0
+  }, {
+    "file" : "medium3.json",
+    "vertices" : 18,
+    "edges" : 18,
+    "weight_model" : "edge",
+    "scc" : [ {
+      "id" : 0,
+      "size" : 1,
+      "vertices" : [ 17 ]
+    }, {
+      "id" : 1,
+      "size" : 1,
+      "vertices" : [ 16 ]
+    }, {
+      "id" : 2,
+      "size" : 1,
+      "vertices" : [ 15 ]
+    }, {
+      "id" : 3,
+      "size" : 1,
+      "vertices" : [ 14 ]
+    }, {
+      "id" : 4,
+      "size" : 1,
+      "vertices" : [ 13 ]
+    }, {
+      "id" : 5,
+      "size" : 1,
+      "vertices" : [ 12 ]
+    }, {
+      "id" : 6,
+      "size" : 1,
+      "vertices" : [ 11 ]
+    }, {
+      "id" : 7,
+      "size" : 1,
+      "vertices" : [ 10 ]
+    }, {
+      "id" : 8,
+      "size" : 1,
+      "vertices" : [ 9 ]
+    }, {
+      "id" : 9,
+      "size" : 1,
+      "vertices" : [ 8 ]
+    }, {
+      "id" : 10,
+      "size" : 1,
+      "vertices" : [ 7 ]
+    }, {
+      "id" : 11,
+      "size" : 1,
+      "vertices" : [ 6 ]
+    }, {
+      "id" : 12,
+      "size" : 1,
+      "vertices" : [ 5 ]
+    }, {
+      "id" : 13,
+      "size" : 1,
+      "vertices" : [ 4 ]
+    }, {
+      "id" : 14,
+      "size" : 1,
+      "vertices" : [ 3 ]
+    }, {
+      "id" : 15,
+      "size" : 3,
+      "vertices" : [ 0, 1, 2 ]
+    } ],
+    "componentTopo" : [ 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 ],
+    "shortest" : {
+      "sourceComp" : 0,
+      "dist" : [ 0.0, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300 ]
+    },
+    "criticalPath" : {
+      "length" : 1.0E300,
+      "path" : [ 1 ]
+    },
+    "Tarjan_SCC_count" : 16,
+    "Tarjan_time_ns" : 17584,
+    "Kahn_time_ns" : 10292,
+    "DAGSP_short_time_ns" : 10083,
+    "DAGSP_long_time_ns" : 10083,
+    "DAGSP_short_relax_ops" : 0,
+    "DAGSP_long_relax_ops" : 0
+  }, {
+    "file" : "small1.json",
+    "vertices" : 6,
+    "edges" : 6,
+    "weight_model" : "edge",
+    "scc" : [ {
+      "id" : 0,
+      "size" : 1,
+      "vertices" : [ 5 ]
+    }, {
+      "id" : 1,
+      "size" : 1,
+      "vertices" : [ 4 ]
+    }, {
+      "id" : 2,
+      "size" : 1,
+      "vertices" : [ 3 ]
+    }, {
+      "id" : 3,
+      "size" : 1,
+      "vertices" : [ 1 ]
+    }, {
+      "id" : 4,
+      "size" : 1,
+      "vertices" : [ 2 ]
+    }, {
+      "id" : 5,
+      "size" : 1,
+      "vertices" : [ 0 ]
+    } ],
+    "componentTopo" : [ 5, 3, 4, 2, 1, 0 ],
+    "shortest" : {
+      "sourceComp" : 0,
+      "dist" : [ 0.0, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300 ]
+    },
+    "criticalPath" : {
+      "length" : 1.0E300,
+      "path" : [ 1 ]
+    },
+    "Tarjan_SCC_count" : 6,
+    "Tarjan_time_ns" : 8541,
+    "Kahn_time_ns" : 5000,
+    "DAGSP_short_time_ns" : 5167,
+    "DAGSP_long_time_ns" : 5375,
+    "DAGSP_short_relax_ops" : 0,
+    "DAGSP_long_relax_ops" : 0
+  }, {
+    "file" : "small2.json",
+    "vertices" : 7,
+    "edges" : 7,
+    "weight_model" : "edge",
+    "scc" : [ {
+      "id" : 0,
+      "size" : 1,
+      "vertices" : [ 6 ]
+    }, {
+      "id" : 1,
+      "size" : 1,
+      "vertices" : [ 5 ]
+    }, {
+      "id" : 2,
+      "size" : 1,
+      "vertices" : [ 4 ]
+    }, {
+      "id" : 3,
+      "size" : 1,
+      "vertices" : [ 3 ]
+    }, {
+      "id" : 4,
+      "size" : 3,
+      "vertices" : [ 0, 1, 2 ]
+    } ],
+    "componentTopo" : [ 4, 3, 2, 1, 0 ],
+    "shortest" : {
+      "sourceComp" : 0,
+      "dist" : [ 0.0, 1.0E300, 1.0E300, 1.0E300, 1.0E300 ]
+    },
+    "criticalPath" : {
+      "length" : 1.0E300,
+      "path" : [ 1 ]
+    },
+    "Tarjan_SCC_count" : 5,
+    "Tarjan_time_ns" : 10209,
+    "Kahn_time_ns" : 5708,
+    "DAGSP_short_time_ns" : 4875,
+    "DAGSP_long_time_ns" : 3875,
+    "DAGSP_short_relax_ops" : 0,
+    "DAGSP_long_relax_ops" : 0
+  }, {
+    "file" : "small3.json",
+    "vertices" : 8,
+    "edges" : 8,
+    "weight_model" : "edge",
+    "scc" : [ {
+      "id" : 0,
+      "size" : 1,
+      "vertices" : [ 7 ]
+    }, {
+      "id" : 1,
+      "size" : 1,
+      "vertices" : [ 6 ]
+    }, {
+      "id" : 2,
+      "size" : 1,
+      "vertices" : [ 5 ]
+    }, {
+      "id" : 3,
+      "size" : 1,
+      "vertices" : [ 4 ]
+    }, {
+      "id" : 4,
+      "size" : 1,
+      "vertices" : [ 3 ]
+    }, {
+      "id" : 5,
+      "size" : 3,
+      "vertices" : [ 0, 1, 2 ]
+    } ],
+    "componentTopo" : [ 5, 4, 3, 2, 1, 0 ],
+    "shortest" : {
+      "sourceComp" : 0,
+      "dist" : [ 0.0, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300 ]
+    },
+    "criticalPath" : {
+      "length" : 1.0E300,
+      "path" : [ 1 ]
+    },
+    "Tarjan_SCC_count" : 6,
+    "Tarjan_time_ns" : 8542,
+    "Kahn_time_ns" : 4625,
+    "DAGSP_short_time_ns" : 4916,
+    "DAGSP_long_time_ns" : 4333,
+    "DAGSP_short_relax_ops" : 0,
+    "DAGSP_long_relax_ops" : 0
+  } ]
+}

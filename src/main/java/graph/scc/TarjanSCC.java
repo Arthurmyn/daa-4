@@ -29,7 +29,7 @@ public final class TarjanSCC {
             if(disc[v]==-1){ dfs(v); low[u]=Math.min(low[u], low[v]); }
             else if(inSt[v]) low[u]=Math.min(low[u], disc[v]);
         }
-        if(low[u]==disc[u]){ // root of SCC
+        if(low[u]==disc[u]){
             while(true){
                 int v=st.pop(); inSt[v]=false; comp[v]=compCnt;
                 if(v==u) break;
