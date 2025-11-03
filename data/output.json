@@ -111,14 +111,14 @@
       "dist" : [ 0.0, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300 ]
     },
     "criticalPath" : {
-      "length" : 1.0E300,
-      "path" : [ 1 ]
+      "length" : 0.0,
+      "path" : [ 0 ]
     },
     "Tarjan_SCC_count" : 25,
-    "Tarjan_time_ns" : 879250,
-    "Kahn_time_ns" : 211833,
-    "DAGSP_short_time_ns" : 988208,
-    "DAGSP_long_time_ns" : 81625,
+    "Tarjan_time_ns" : 1164208,
+    "Kahn_time_ns" : 153500,
+    "DAGSP_short_time_ns" : 452458,
+    "DAGSP_long_time_ns" : 230167,
     "DAGSP_short_relax_ops" : 0,
     "DAGSP_long_relax_ops" : 0
   }, {
@@ -245,14 +245,14 @@
       "dist" : [ 0.0, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300 ]
     },
     "criticalPath" : {
-      "length" : 1.0E300,
-      "path" : [ 1 ]
+      "length" : 0.0,
+      "path" : [ 0 ]
     },
     "Tarjan_SCC_count" : 28,
-    "Tarjan_time_ns" : 58875,
-    "Kahn_time_ns" : 66583,
-    "DAGSP_short_time_ns" : 63250,
-    "DAGSP_long_time_ns" : 81208,
+    "Tarjan_time_ns" : 51750,
+    "Kahn_time_ns" : 40625,
+    "DAGSP_short_time_ns" : 27167,
+    "DAGSP_long_time_ns" : 29250,
     "DAGSP_short_relax_ops" : 0,
     "DAGSP_long_relax_ops" : 0
   }, {
@@ -427,14 +427,14 @@
       "dist" : [ 0.0, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300 ]
     },
     "criticalPath" : {
-      "length" : 1.0E300,
-      "path" : [ 1 ]
+      "length" : 0.0,
+      "path" : [ 0 ]
     },
     "Tarjan_SCC_count" : 40,
-    "Tarjan_time_ns" : 65291,
-    "Kahn_time_ns" : 68167,
-    "DAGSP_short_time_ns" : 67541,
-    "DAGSP_long_time_ns" : 65667,
+    "Tarjan_time_ns" : 36958,
+    "Kahn_time_ns" : 35459,
+    "DAGSP_short_time_ns" : 28084,
+    "DAGSP_long_time_ns" : 27250,
     "DAGSP_short_relax_ops" : 0,
     "DAGSP_long_relax_ops" : 0
   }, {
@@ -489,14 +489,14 @@
       "dist" : [ 0.0, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300 ]
     },
     "criticalPath" : {
-      "length" : 1.0E300,
-      "path" : [ 1 ]
+      "length" : 0.0,
+      "path" : [ 0 ]
     },
     "Tarjan_SCC_count" : 10,
-    "Tarjan_time_ns" : 34583,
-    "Kahn_time_ns" : 8792,
-    "DAGSP_short_time_ns" : 9042,
-    "DAGSP_long_time_ns" : 8666,
+    "Tarjan_time_ns" : 11750,
+    "Kahn_time_ns" : 9542,
+    "DAGSP_short_time_ns" : 6916,
+    "DAGSP_long_time_ns" : 6167,
     "DAGSP_short_relax_ops" : 0,
     "DAGSP_long_relax_ops" : 0
   }, {
@@ -563,14 +563,14 @@
       "dist" : [ 0.0, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300 ]
     },
     "criticalPath" : {
-      "length" : 1.0E300,
-      "path" : [ 1 ]
+      "length" : 0.0,
+      "path" : [ 0 ]
     },
     "Tarjan_SCC_count" : 13,
-    "Tarjan_time_ns" : 18667,
-    "Kahn_time_ns" : 8417,
-    "DAGSP_short_time_ns" : 8875,
-    "DAGSP_long_time_ns" : 8209,
+    "Tarjan_time_ns" : 13209,
+    "Kahn_time_ns" : 8500,
+    "DAGSP_short_time_ns" : 8250,
+    "DAGSP_long_time_ns" : 7625,
     "DAGSP_short_relax_ops" : 0,
     "DAGSP_long_relax_ops" : 0
   }, {
@@ -649,14 +649,14 @@
       "dist" : [ 0.0, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300 ]
     },
     "criticalPath" : {
-      "length" : 1.0E300,
-      "path" : [ 1 ]
+      "length" : 0.0,
+      "path" : [ 0 ]
     },
     "Tarjan_SCC_count" : 16,
-    "Tarjan_time_ns" : 17584,
-    "Kahn_time_ns" : 10292,
-    "DAGSP_short_time_ns" : 10083,
-    "DAGSP_long_time_ns" : 10083,
+    "Tarjan_time_ns" : 16500,
+    "Kahn_time_ns" : 9792,
+    "DAGSP_short_time_ns" : 11583,
+    "DAGSP_long_time_ns" : 9792,
     "DAGSP_short_relax_ops" : 0,
     "DAGSP_long_relax_ops" : 0
   }, {
@@ -695,14 +695,14 @@
       "dist" : [ 0.0, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300 ]
     },
     "criticalPath" : {
-      "length" : 1.0E300,
-      "path" : [ 1 ]
+      "length" : 0.0,
+      "path" : [ 0 ]
     },
     "Tarjan_SCC_count" : 6,
-    "Tarjan_time_ns" : 8541,
-    "Kahn_time_ns" : 5000,
-    "DAGSP_short_time_ns" : 5167,
-    "DAGSP_long_time_ns" : 5375,
+    "Tarjan_time_ns" : 8791,
+    "Kahn_time_ns" : 4958,
+    "DAGSP_short_time_ns" : 4958,
+    "DAGSP_long_time_ns" : 4250,
     "DAGSP_short_relax_ops" : 0,
     "DAGSP_long_relax_ops" : 0
   }, {
@@ -737,14 +737,14 @@
       "dist" : [ 0.0, 1.0E300, 1.0E300, 1.0E300, 1.0E300 ]
     },
     "criticalPath" : {
-      "length" : 1.0E300,
-      "path" : [ 1 ]
+      "length" : 0.0,
+      "path" : [ 0 ]
     },
     "Tarjan_SCC_count" : 5,
-    "Tarjan_time_ns" : 10209,
-    "Kahn_time_ns" : 5708,
-    "DAGSP_short_time_ns" : 4875,
-    "DAGSP_long_time_ns" : 3875,
+    "Tarjan_time_ns" : 9084,
+    "Kahn_time_ns" : 4875,
+    "DAGSP_short_time_ns" : 4708,
+    "DAGSP_long_time_ns" : 3458,
     "DAGSP_short_relax_ops" : 0,
     "DAGSP_long_relax_ops" : 0
   }, {
@@ -783,14 +783,14 @@
       "dist" : [ 0.0, 1.0E300, 1.0E300, 1.0E300, 1.0E300, 1.0E300 ]
     },
     "criticalPath" : {
-      "length" : 1.0E300,
-      "path" : [ 1 ]
+      "length" : 0.0,
+      "path" : [ 0 ]
     },
     "Tarjan_SCC_count" : 6,
-    "Tarjan_time_ns" : 8542,
-    "Kahn_time_ns" : 4625,
-    "DAGSP_short_time_ns" : 4916,
-    "DAGSP_long_time_ns" : 4333,
+    "Tarjan_time_ns" : 8916,
+    "Kahn_time_ns" : 4417,
+    "DAGSP_short_time_ns" : 4708,
+    "DAGSP_long_time_ns" : 4208,
     "DAGSP_short_relax_ops" : 0,
     "DAGSP_long_relax_ops" : 0
   } ]

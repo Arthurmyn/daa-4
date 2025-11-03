@@ -1,10 +1,11 @@
+import graph.dagsp.DagLP;
 import graph.io.GraphIO;
 import graph.io.MetricsCsvWriter;
 import graph.util.*;
 import graph.scc.TarjanSCC;
 import graph.topo.TopoSort;
 import graph.dagsp.DagSP;
-
+import graph.dagsp.DagLP;
 import java.nio.file.*;
 import java.util.*;
 
@@ -18,11 +19,10 @@ public class App {
         MetricsCsvWriter csv = new MetricsCsvWriter(Path.of("data/metrics.csv"));
         csv.writeHeader();
 
-        List<Map<String,Object>> results = new ArrayList<>();
+        List<Map<String, Object>> results = new ArrayList<>();
 
         for (Path file : files) {
             var dto = GraphIO.load(file);
-
             if (dto.edges == null || dto.n == 0) {
                 System.out.println("skip: " + file.getFileName());
                 continue;
@@ -49,10 +49,10 @@ public class App {
             long dagShortNs = System.nanoTime() - t1;
 
             t1 = System.nanoTime();
-            var lp = DagSP.longestPath(dag, src, met);
+            var lp = DagLP.compute(dag, src, met);
             long dagLongNs = System.nanoTime() - t1;
 
-            Map<String,Object> item = new LinkedHashMap<>();
+            Map<String, Object> item = new LinkedHashMap<>();
             item.put("file", file.getFileName().toString());
             item.put("vertices", dto.n);
             item.put("edges", dto.edges.size());
@@ -63,9 +63,10 @@ public class App {
             List<List<Integer>> buckets = new ArrayList<>();
             for (int i = 0; i < compCount; i++) buckets.add(new ArrayList<>());
             for (int v = 0; v < g.n; v++) buckets.get(comp[v]).add(v);
-            List<Map<String,Object>> sccList = new ArrayList<>();
+
+            List<Map<String, Object>> sccList = new ArrayList<>();
             for (int i = 0; i < compCount; i++) {
-                Map<String,Object> sc = new LinkedHashMap<>();
+                Map<String, Object> sc = new LinkedHashMap<>();
                 sc.put("id", i);
                 sc.put("size", buckets.get(i).size());
                 sc.put("vertices", buckets.get(i));
@@ -74,16 +75,18 @@ public class App {
             item.put("scc", sccList);
             item.put("componentTopo", Arrays.stream(topo).boxed().toList());
 
-            Map<String,Object> shortest = new LinkedHashMap<>();
+            Map<String, Object> shortest = new LinkedHashMap<>();
             shortest.put("sourceComp", src);
             shortest.put("dist", Arrays.stream(sp.dist()).boxed().toList());
             item.put("shortest", shortest);
 
             int end = 0;
-            for (int i = 0; i < dag.n; i++) if (lp.dist()[i] < lp.dist()[end]) end = i;
-            int[] path = DagSP.reconstructPath(end, lp.parent());
-            Map<String,Object> crit = new LinkedHashMap<>();
-            crit.put("length", -lp.dist()[end]);
+            for (int i = 0; i < dag.n; i++) {
+                if (lp.dist()[i] > lp.dist()[end]) end = i;
+            }
+            int[] path = DagLP.reconstruct(end, lp.parent());
+            Map<String, Object> crit = new LinkedHashMap<>();
+            crit.put("length", lp.dist()[end]);
             crit.put("path", Arrays.stream(path).boxed().toList());
             item.put("criticalPath", crit);
 
@@ -93,7 +96,7 @@ public class App {
             item.put("DAGSP_short_time_ns", dagShortNs);
             item.put("DAGSP_long_time_ns", dagLongNs);
             item.put("DAGSP_short_relax_ops", met.get("dagsp.relax.attempts"));
-            item.put("DAGSP_long_relax_ops", met.get("dagsp.relax.success"));
+            item.put("DAGSP_long_relax_ops", met.get("dagsp.long.relax.attempts"));
 
             results.add(item);
 
@@ -104,7 +107,7 @@ public class App {
                     compCount,
                     topo.length,
                     met.get("dagsp.relax.attempts"),
-                    met.get("dagsp.relax.success"),
+                    met.get("dagsp.long.relax.attempts"),
                     tarjanNs,
                     topoNs,
                     dagShortNs,
@@ -114,8 +117,9 @@ public class App {
             System.out.println("done: " + file.getFileName());
         }
 
-        Map<String,Object> root = new LinkedHashMap<>();
+        Map<String, Object> root = new LinkedHashMap<>();
         root.put("results", results);
         GraphIO.writeOutput(Path.of("data/output.json"), root);
+        System.out.println("All datasets processed. Results saved to data/metrics.csv and data/output.json.");
     }
 }
